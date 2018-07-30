@@ -365,6 +365,12 @@ var uastrings = []struct {
 		expected: "Browser:curl-7.28.1 Bot:false Mobile:false",
 	},
 
+	// Vivaldi
+	{
+		title:      "Vivaldi",
+		ua:         "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36 Vivaldi/1.2.490.43",
+		expected:   "Mozilla:5.0 Platform:Windows OS:Windows 10 Browser:Vivaldi-1.2.490.43 Engine:AppleWebKit-537.36 Bot:false Mobile:false",
+	},
 	// WebKit
 	{
 		title:      "ChromeLinux",

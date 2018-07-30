@@ -65,6 +65,9 @@ func (p *UserAgent) detectBrowser(sections []section) {
 					p.browser.Version = sections[slen-1].version
 					p.browser.Engine = "EdgeHTML"
 					p.browser.EngineVersion = ""
+				case "Vivaldi":
+					p.browser.Name = "Vivaldi"
+					p.browser.Version = sections[slen-1].version
 				case "OPR":
 					p.browser.Name = "Opera"
 					p.browser.Version = sections[slen-1].version
